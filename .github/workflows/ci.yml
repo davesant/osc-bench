@@ -1,0 +1,40 @@
+name: ci
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install pinned dependencies
+        run: |
+          pip install -r requirements.lock
+          pip install -e . --no-deps
+      - name: Validate tasks
+        run: python -m osc_bench.cli validate
+      - name: Oracle passes, null agents fail
+        run: python -m osc_bench.cli baselines
+      - name: Generated files are current
+        run: |
+          python -m osc_bench.cli manifest
+          python -m osc_bench.cli croissant
+          git diff --exit-code data/library/MANIFEST.yaml croissant.json data/tasks_index.csv
+      - name: Tests
+        run: pytest -q
+  croissant:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install mlcroissant
+      - name: Validate Croissant metadata
+        run: mlcroissant validate --jsonld croissant.json

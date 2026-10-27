@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osc-bench"
+version = "0.2.0"
+description = "A benchmark for AI agents doing UK Online Safety Act compliance work"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["inspect-ai>=0.3.100,<0.4", "pyyaml>=6,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+# Model provider SDKs for real runs. inspect-ai 0.3.273 (requirements.lock) fails with anthropic 2.x
+# ("Cannot instantiate typing.Union" when building messages); anthropic 1.17.0 works (tested 27 Oct 2026).
+providers = ["anthropic>=1,<2", "google-genai>=2,<3"]
+
+[project.scripts]
+osc-bench = "osc_bench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["osc_bench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

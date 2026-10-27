@@ -1,0 +1,201 @@
+# OSC-Bench harm registry: harm ids used in measures.yaml (risk / risk_any / risk_count / pc_risk_any conditions).
+# Built 2026-09-30. See README.md for sources and caveats.
+#
+# Illegal harms follow Ofcom's Risk Assessment Guidance and Risk Profiles (updated 25 Jun 2026), which lists
+# 17 numbered kinds (CSEA split into grooming / CSAM imagery / CSAM URLs) plus "18. Cyberflashing", and which
+# groups "Encouraging or assisting suicide and serious self-harm" as one kind.
+# legal_basis gives OSA Schedule 5/6/7 paragraphs from legislation.gov.uk (Sch 7 as amended by SI 2025/1352,
+# in force 8 Jan 2026). Where a kind maps to only part of a paragraph, or where Ofcom's grouping was not
+# confirmed paragraph-by-paragraph, status is uncertain.
+
+- id: terrorism
+  label: Terrorism
+  kind: illegal
+  legal_basis: "OSA Sch 5 (terrorism offences)"
+  source: https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/updates/risk-assessment-guidance-and-risk-profiles.pdf
+  status: verified
+- id: csea_grooming
+  label: "Child sexual exploitation and abuse (CSEA): grooming"
+  kind: illegal
+  legal_basis: "OSA Sch 6 (CSEA offences) - grooming offences"
+  source: https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/updates/risk-assessment-guidance-and-risk-profiles.pdf
+  status: verified
+  note: "Codes refer to this kind as 'grooming' (ICU F1, F2, J1, J2). Search Codes Table C lists CSEA as one row."
+- id: csea_image
+  label: "CSEA: child sexual abuse material (CSAM) - imagery ('image-based CSAM' in the Codes)"
+  kind: illegal
+  legal_basis: "OSA Sch 6 (CSEA offences)"
+  source: https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/updates/risk-assessment-guidance-and-risk-profiles.pdf
+  status: verified
+- id: csea_urls
+  label: "CSEA: child sexual abuse material (CSAM) - URLs"
+  kind: illegal
+  legal_basis: "OSA Sch 6 (CSEA offences)"
+  source: https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/updates/risk-assessment-guidance-and-risk-profiles.pdf
+  status: verified
+- id: hate
+  label: Hate
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 5 (Public Order Act 1986 ss18, 19, 21, 29B, 29C, 29E) and para 9 (Crime and Disorder Act 1998 ss31, 32)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+  note: "Offence list per Ofcom search Codes Table C (9 Sep 2026 version); paragraph numbers per legislation.gov.uk."
+- id: harassment
+  label: "Harassment, stalking, threats and abuse"
+  kind: illegal
+  legal_basis: "OSA Sch 7 paras 3, 4, 6, 7, 8, 9, 10 (threats to kill; public order; harassment and stalking offences) - exact Ofcom mapping not confirmed"
+  source: https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/updates/risk-assessment-guidance-and-risk-profiles.pdf
+  status: uncertain
+  note: "Ofcom Table C says 'multiple provisions across four jurisdictions'; paragraph list not read from an Ofcom source. Sch 7 para 9 (racially/religiously aggravated offences) overlaps with hate."
+- id: coercive_control
+  label: Controlling or coercive behaviour
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 11 (Serious Crime Act 2015 s76)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+- id: intimate_image_abuse
+  label: Intimate image abuse
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 28A(b)-(d) (Sexual Offences Act 2003 ss66B, 66E, 66F) and para 31 (Abusive Behaviour and Sexual Harm (Scotland) Act 2016 s2)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: uncertain
+  note: "Ofcom search Codes Table C (9 Sep 2026) lists SOA 2003 s66B and AB&SH(S)A 2016 s2. Sch 7 para 28A was inserted 8 Jan 2026 and amended 29 Jun 2026 (adding ss66E/66F); whether Ofcom treats ss66E/66F as part of this kind was not confirmed."
+- id: cyberflashing
+  label: Cyberflashing
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 28A(a) (Sexual Offences Act 2003 s66A)"
+  source: https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/statement-new-priority-offences-serious-self-harm-and-cyberflashing
+  status: verified
+  note: "New priority offence (SI 2025/1352, in force 8 Jan 2026). Ofcom statement 25 Jun 2026: 'a new, and separate, kind of illegal harm'. Listed as kind 18 in the updated risk assessment guidance. No in-force Code measure is conditioned on it yet; Ofcom's June 2026 draft consolidated ICU Code (not in force) adds it to ICU J1/J2."
+- id: extreme_pornography
+  label: Extreme pornography
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 29 (Criminal Justice and Immigration Act 2008 s63)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+- id: sexual_exploitation_adults
+  label: Sexual exploitation of adults
+  kind: illegal
+  legal_basis: "OSA Sch 7 paras 27-28 (Sexual Offences Act 2003 ss52, 53; SO(NI) Order 2008 arts 62, 63)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+- id: human_trafficking
+  label: Human trafficking
+  kind: illegal
+  legal_basis: "OSA Sch 7 paras 24-26 (Modern Slavery Act 2015 s2 and Scottish/NI equivalents)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+- id: unlawful_immigration
+  label: Unlawful immigration
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 23 (Immigration Act 1971 ss24, 25)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+- id: fraud
+  label: Fraud and financial offences
+  kind: illegal
+  legal_basis: "OSA Sch 7 paras 33-36 (Fraud Act 2006 ss2, 4, 7, 9; CJL(S)A 2010 s49(3); FSMA 2000 ss23-25; Financial Services Act 2012 ss89-90) - paragraph split not confirmed"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: uncertain
+  note: "legislation.gov.uk extraction grouped paras 29, 31-36 together; exact paragraph numbers for each Act not confirmed."
+- id: proceeds_of_crime
+  label: Proceeds of crime
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 32 (Proceeds of Crime Act 2002 ss327-329) - paragraph number not confirmed"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: uncertain
+- id: drugs
+  label: Drugs and psychoactive substances
+  kind: illegal
+  legal_basis: "OSA Sch 7 paras 12-13 (Misuse of Drugs Act 1971; Psychoactive Substances Act 2016)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+- id: weapons
+  label: Firearms, knives and other weapons
+  kind: illegal
+  legal_basis: "OSA Sch 7 paras 14-22"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+- id: suicide_self_harm
+  label: Encouraging or assisting suicide and serious self-harm
+  kind: illegal
+  legal_basis: "OSA Sch 7 paras 1, 2 (Suicide Act 1961 s2; CJA (NI) 1966 s13) and para 2A (OSA s184, inserted 8 Jan 2026)"
+  source: https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/statement-new-priority-offences-serious-self-harm-and-cyberflashing
+  status: verified
+  note: "Ofcom (25 Jun 2026) combined suicide and serious self-harm into one kind for risk assessment. The Codes in force on 30 Sep 2026 still name only 'encouraging or assisting suicide (or attempted suicide)' in ICU E1/J1/J2; code amendments to follow separately."
+- id: foreign_interference
+  label: Foreign interference
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 37 (National Security Act 2023 s13)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+- id: animal_cruelty
+  label: Animal cruelty
+  kind: illegal
+  legal_basis: "OSA Sch 7 para 38 (Animal Welfare Act 2006 s4(1))"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/schedule/7
+  status: verified
+
+# ---- Content harmful to children (OSA ss60-62) ----
+- id: pornography
+  label: Pornographic content
+  kind: children_ppc
+  legal_basis: "OSA s61(2)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/61
+  status: verified
+- id: suicide
+  label: Suicide content
+  kind: children_ppc
+  legal_basis: "OSA s61(3)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/61
+  status: verified
+- id: self_harm
+  label: Self-harm content
+  kind: children_ppc
+  legal_basis: "OSA s61(4)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/61
+  status: verified
+- id: eating_disorders
+  label: Eating disorder content
+  kind: children_ppc
+  legal_basis: "OSA s61(5)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/61
+  status: verified
+- id: abuse_hate
+  label: Abuse and hate content (abusive content; content inciting hatred)
+  kind: children_pc
+  legal_basis: "OSA s62(2) (abusive content), s62(3) (content inciting hatred)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/62
+  status: verified
+  note: "Ofcom's Codes treat abusive content and content inciting hatred as two 'specific kinds'; counts of kinds (multi-risk (children), PCU E3) should count them separately."
+- id: bullying
+  label: Bullying content
+  kind: children_pc
+  legal_basis: "OSA s62(5)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/62
+  status: verified
+- id: violence
+  label: Violent content (person; animal; instructions for an act of serious violence against a person)
+  kind: children_pc
+  legal_basis: "OSA s62(4) (instructions for serious violence), s62(6) (person), s62(7) (animal/fictional creature)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/62
+  status: verified
+  note: "Codes name three specific kinds: violent content (person), violent content (animal), violent content (instructions for an act of serious violence against a person). Draft PCU C11/C12 cover only the person and instructions kinds."
+- id: dangerous_stunts
+  label: Dangerous stunts and challenges content
+  kind: children_pc
+  legal_basis: "OSA s62(8)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/62
+  status: verified
+- id: harmful_substances
+  label: Harmful substances content
+  kind: children_pc
+  legal_basis: "OSA s62(9)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/62
+  status: verified
+- id: non_designated
+  label: Non-designated content that is harmful to children
+  kind: children_ndc
+  legal_basis: "OSA s60(2)(c), s60(4)"
+  source: https://www.legislation.gov.uk/ukpga/2023/50/section/60
+  status: verified

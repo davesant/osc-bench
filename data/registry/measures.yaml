@@ -1,0 +1,2066 @@
+# OSC-Bench measure registry: Ofcom Online Safety Act Codes of Practice (ICU, ICS, PCU, PCS).
+# Built 2026-09-30 from Ofcom / gov.uk sources; see README.md for sources, condition keys and caveats.
+# applies_if: list of OR'ed clauses; each clause is a mapping of AND'ed conditions; [{}] = all services of that type.
+- id: ICU A1
+  code: ICU
+  section: A
+  title: Annual review of risk management activities
+  applies_if:
+  - {size: large}
+  applies_text: This measure applies to a provider in respect of each large service it provides.
+  in_force: 2025-03-17
+  source:
+    url: &src1 https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/detecting-intimate-image-abuse/illegal-content-codes-of-practice-for-user-to-user-services-9sep2026.pdf
+    locator: s4 para ICU A1.1, p.15; index s3
+  status: verified
+- id: ICU A2
+  code: ICU
+  section: A
+  title: Individual accountable for illegal content safety and complaints duties
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU A2.1, p.15; index s3
+  status: verified
+- id: ICU A3
+  code: ICU
+  section: A
+  title: Written statements of responsibilities
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU A3.1, p.16; index s3
+  status: verified
+- id: ICU A4
+  code: ICU
+  section: A
+  title: Internal monitoring and assurance
+  applies_if:
+  - {size: large, multi_risk: true}
+  applies_text: This measure applies to a provider in respect of each service it provides that is both a large service and a multi-risk service.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU A4.1, p.16; index s3
+  status: verified
+- id: ICU A5
+  code: ICU
+  section: A
+  title: Tracking evidence of new and increasing illegal harm
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU A5.1, p.17; index s3
+  status: verified
+- id: ICU A6
+  code: ICU
+  section: A
+  title: Code of conduct on protecting users from illegal harm
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU A6.1, p.18; index s3
+  status: verified
+- id: ICU A7
+  code: ICU
+  section: A
+  title: Compliance training
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU A7.1, p.18; index s3
+  status: verified
+- id: ICU C1
+  code: ICU
+  section: C
+  title: Content moderation function to review and assess suspected illegal content
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C1.1, p.20; index s3
+  status: verified
+- id: ICU C2
+  code: ICU
+  section: C
+  title: Content moderation function enabling swift takedown of illegal content
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C2.1, p.21; index s3
+  status: verified
+- id: ICU C3
+  code: ICU
+  section: C
+  title: Setting internal content policies
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C3.1, p.22; index s3
+  status: verified
+- id: ICU C4
+  code: ICU
+  section: C
+  title: Content moderation performance targets
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C4.1, p.22; index s3
+  status: verified
+- id: ICU C5
+  code: ICU
+  section: C
+  title: Prioritisation of content for review
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C5.1, p.23; index s3
+  status: verified
+- id: ICU C6
+  code: ICU
+  section: C
+  title: Resourcing content moderation
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C6.1, p.24; index s3
+  status: verified
+- id: ICU C7
+  code: ICU
+  section: C
+  title: Training and materials for (non-volunteer) content moderators
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C7.1, p.24; index s3
+  status: verified
+- id: ICU C8
+  code: ICU
+  section: C
+  title: Provision of materials to volunteer moderators
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C8.1, p.25; index s3
+  status: verified
+- id: ICU C9
+  code: ICU
+  section: C
+  title: Hash matching to detect and remove CSAM
+  applies_if:
+  - {users_over: 700000, risk: {harm: csea_image, min: high}}
+  - {feature: file_sharing, risk: {harm: csea_image, min: high}}
+  - {size: large, risk: {harm: csea_image, min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that: (a) is at high risk of image-based CSAM, and: i) has more than 700,000 monthly active United Kingdom users (see paragraphs 5.7 to 5.10); or ii) is a file-storage and file-sharing service; or (b) is a large service and is at medium or high risk of image-based CSAM.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C9.1, p.25; index s3
+  status: verified
+  note: 'feature: file_sharing = ''file-storage and file-sharing service'' as defined in Codes Table A.'
+- id: ICU C10
+  code: ICU
+  section: C
+  title: Detect and remove content matching listed CSAM URLs
+  applies_if:
+  - {users_over: 700000, risk: {harm: csea_urls, min: high}}
+  - {size: large, risk: {harm: csea_urls, min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that: a) has more than 700,000 monthly active United Kingdom users (see paragraphs 5.7 to 5.10) and is at high risk of CSAM URLs; or b) is a large service and is at medium or high risk of CSAM URLs.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU C10.1, p.29; index s3
+  status: verified
+- id: ICU C14
+  code: ICU
+  section: C
+  title: Hash matching to detect intimate image abuse content
+  applies_if:
+  - {feature: visual_ugc, principal_purpose: pornography, risk: {harm: intimate_image_abuse, min: high}}
+  - {feature: visual_ugc, users_over: 700000, risk: {harm: intimate_image_abuse, min: high}}
+  - {feature: [visual_ugc, file_sharing], risk: {harm: intimate_image_abuse, min: high}}
+  - {feature: visual_ugc, size: large, risk: {harm: intimate_image_abuse, min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that enables regulated user-generated content in the form of photographs, videos or visual images (whether or not combined with written material) to be generated, uploaded or shared, and: (a) is at high risk of intimate image abuse, and: i) the principal purpose of the service is the hosting or dissemination of regulated pornographic content; ii) has more than 700,000 monthly active United Kingdom users (see paragraphs 5.7 to 5.10); or iii) is a file-storage and file-sharing service; or (b) is a large service and is at medium or high risk of intimate image abuse.'
+  in_force: 2026-09-30
+  source:
+    url: *src1
+    locator: s4 para ICU C14.1 (page not recorded); index s3 p.10
+  status: verified
+  note: 'Added by amendments issued 9 Sep 2026, in force 30 Sep 2026 (Codes cover: ''Incorporates amendments issued: 9 September 2026 / Incorporates amendments in force: 30 September 2026''; IIA statement page: ''issued 9 September 2026, in force 30 September 2026''). ICU C11-C13 are shown as intentionally blank in this version. Ofcom has separate guidance (9 Sep 2026) on the appropriate proportion of human review for IIA hash matching. The image-content condition governs all four clauses.'
+- id: ICU C15
+  code: ICU
+  section: C
+  title: Crisis response protocol
+  applies_if:
+  - {size: large, risk_any: {harms: [terrorism, hate, harassment, foreign_interference], min: medium}}
+  - {risk_any: {harms: [terrorism, hate, harassment, foreign_interference], min: high}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that meets either of the following conditions: (a) the service is a large service at medium risk of one or more of the following kinds of illegal harm: (i) terrorism; (ii) hate; (iii) harassment, stalking, threats and abuse; (iv) the foreign interference offence; or (b) the service is at high risk of one or more of the kinds of illegal harm listed in sub-paragraph (a).'
+  in_force: null
+  source:
+    url: &src2 https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/protecting-children/illegal-harms/draft-consolidated-illegal-content-codes-of-practice-for-user-to-user-services.pdf?v=419247
+    locator: draft consolidated ICU Code (VERSION NOT IN FORCE), para ICU C15.1
+  status: uncertain
+  note: 'NOT in the 9 Sep 2026 amended Code (which runs C14 -> D1). Taken from Ofcom''s draft consolidated Code marked ''VERSION NOT IN FORCE''. Crisis response statement page (updated 18 Jun 2026): measures ''laid in parliament''; ''From Autumn, relevant providers will need to take the measures''. No in-force date found as of 30 Sep 2026. Clause (a) text says ''medium risk''; high risk at any size is covered by (b). C15.2 defines crisis as an extraordinary situation with a serious threat to public safety in the UK linked to a significant increase in relevant illegal content.'
+- id: ICU C16
+  code: ICU
+  section: C
+  title: 'Crisis response: dedicated law enforcement channel'
+  applies_if:
+  - {size: large, risk_any: {harms: [terrorism, hate, harassment, foreign_interference], min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is a large service at medium or high risk of one or more of the following kinds of illegal harm: (a) terrorism; (b) hate; (c) harassment, stalking, threats and abuse; (d) the foreign interference offence.'
+  in_force: null
+  source:
+    url: *src2
+    locator: draft consolidated ICU Code (VERSION NOT IN FORCE), para ICU C16.1
+  status: uncertain
+  note: 'As ICU C15: draft, laid June 2026, not in force in any Code version found; in_force unknown.'
+- id: ICU D1
+  code: ICU
+  section: D
+  title: Enabling complaints
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D1.1, p.37; index s3
+  status: verified
+- id: ICU D2
+  code: ICU
+  section: D
+  title: Easy to find, access and use complaints systems
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D2.1, p.37; index s3
+  status: verified
+- id: ICU D3
+  code: ICU
+  section: D
+  title: Information to users prior to submitting a complaint
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service that is likely to be accessed by children it provides that is either (or both) of the following: (a) a large service; or (b) at medium or high risk of any kind of illegal harm.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D3.1, p.38; index s3
+  status: verified
+- id: ICU D4
+  code: ICU
+  section: D
+  title: Sending complainants indicative timeframes
+  applies_if:
+  - {size: large}
+  - {risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: (a) a large service; or (b) at medium or high risk of any kind of illegal harm.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D4.1, p.39; index s3
+  status: verified
+- id: ICU D5
+  code: ICU
+  section: D
+  title: Further information on how complaint will be handled
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service that is likely to be accessed by children it provides that is either (or both) of the following: (a) a large service; or (b) at medium or high risk of any kind of illegal harm.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D5.1, p.39; index s3
+  status: verified
+- id: ICU D6
+  code: ICU
+  section: D
+  title: Opt-out from communications following a complaint
+  applies_if:
+  - {size: large}
+  - {risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: (a) a large service; or (b) at medium or high risk of any kind of illegal harm.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D6.1, p.40; index s3
+  status: verified
+- id: ICU D7
+  code: ICU
+  section: D
+  title: Action on complaints about suspected illegal content
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D7.1, p.40; index s3
+  status: verified
+- id: ICU D8
+  code: ICU
+  section: D
+  title: Appeals determination (large or multi-risk services)
+  applies_if:
+  - {size: large}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: (a) a large service; or (b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D8.1, p.41; index s3
+  status: verified
+- id: ICU D9
+  code: ICU
+  section: D
+  title: Appeals determination (neither large nor multi-risk)
+  applies_if:
+  - {size: not_large, multi_risk: false}
+  applies_text: This measure applies to a provider in respect of each service it provides that is neither a large service nor a multi-risk service.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D9.1, p.42; index s3
+  status: verified
+- id: ICU D10
+  code: ICU
+  section: D
+  title: Action following appeal determination
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D10.1, p.42; index s3
+  status: verified
+- id: ICU D11
+  code: ICU
+  section: D
+  title: Action on complaints about proactive technology (non-appeals)
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D11.1, p.43; index s3
+  status: verified
+- id: ICU D12
+  code: ICU
+  section: D
+  title: Action on all other relevant complaints
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service that it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D12.1, p.43; index s3
+  status: verified
+- id: ICU D13
+  code: ICU
+  section: D
+  title: Exception for manifestly unfounded complaints
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service that it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D13.1, p.44; index s3
+  status: verified
+- id: ICU D14
+  code: ICU
+  section: D
+  title: Dedicated trusted flagger reporting channel for fraud
+  applies_if:
+  - {size: large, risk: {harm: fraud, min: medium}}
+  applies_text: This measure applies to a provider in respect of each service it provides that is a large service and is at medium or high risk of fraud.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU D14.1, p.45; index s3
+  status: verified
+- id: ICU E1
+  code: ICU
+  section: E
+  title: Safety metrics during on-platform recommender system testing
+  applies_if:
+  - {feature: recommender_testing, risk_count: {groups: [[terrorism], [csea_image, csea_urls], [suicide_self_harm], [hate], [harassment], [drugs], [extreme_pornography], [intimate_image_abuse], [foreign_interference]], min: medium, count: 2}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that meets both of the following conditions: (a) the provider conducts on-platform testing of content recommender systems on the service; and (b) the service is at medium or high risk of the kinds of illegal harm specified in two or more of the following paragraphs: (i) terrorism; (ii) image-based CSAM or CSAM URLs; (iii) encouraging or assisting suicide (or attempted suicide); (iv) hate; (v) harassment, stalking, threats and abuse; (vi) drugs and psychoactive substances; (vii) extreme pornography; (viii) intimate image abuse; or (ix) the foreign interference offence.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU E1.1, p.47; index s3
+  status: verified
+  note: In-force text names 'encouraging or assisting suicide (or attempted suicide)'; since the 25 Jun 2026 statement suicide and serious self-harm are assessed as one kind (harm id suicide_self_harm). Ofcom's June 2026 draft consolidated Code (not in force) reads '...suicide (or attempted suicide) and serious self-harm'.
+- id: ICU F1
+  code: ICU
+  section: F
+  title: Safety defaults for child users
+  applies_if:
+  - {risk: {harm: csea_grooming, min: high}}
+  - {size: large, risk: {harm: csea_grooming, min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either of the following, to the extent that it has an existing means to determine the age or age range of a particular user of the service: (a) at high risk of grooming; or (b) a large service that is at medium risk of grooming.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU F1.1, p.49; index s3
+  status: verified
+  note: 'Qualified: applies only ''to the extent that it has an existing means to determine the age or age range'' of a user (not encoded as a condition).'
+- id: ICU F2
+  code: ICU
+  section: F
+  title: Support for child users
+  applies_if:
+  - {risk: {harm: csea_grooming, min: high}}
+  - {size: large, risk: {harm: csea_grooming, min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either of the following, to the extent that it has an existing means to determine the age or age range of a particular user of the service: (a) at high risk of grooming; or (b) a large service that is at medium risk of grooming.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU F2.1, p.50; index s3
+  status: verified
+  note: 'Qualified: applies only ''to the extent that it has an existing means to determine the age or age range'' of a user (not encoded as a condition).'
+- id: ICU G1
+  code: ICU
+  section: G
+  title: 'Terms of service: substance (all services)'
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU G1.1, p.52; index s3
+  status: verified
+- id: ICU G2
+  code: ICU
+  section: G
+  title: 'Terms of service: substance (Category 1 services)'
+  applies_if:
+  - {category: '1'}
+  applies_text: This measure applies to a provider in respect of each Category 1 service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU G2.1, p.52; index s3
+  status: verified
+- id: ICU G3
+  code: ICU
+  section: G
+  title: 'Terms of service: clarity and accessibility'
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU G3.1, p.53; index s3
+  status: verified
+- id: ICU H1
+  code: ICU
+  section: H
+  title: Removing accounts of proscribed organisations
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU H1.1, p.54; index s3
+  status: verified
+- id: ICU J1
+  code: ICU
+  section: J
+  title: User blocking and muting
+  applies_if:
+  - {size: large, risk_any: {harms: [csea_grooming, suicide_self_harm, hate, harassment, coercive_control], min: medium}, feature: user_profiles, feature_any: [user_connection, posting_content, user_communication]}
+  applies_text: 'This measure applies to a provider in respect of each large service it provides that meets all of the following conditions: (a) the service is at medium or high risk of one or more of the following kinds of illegal harm: (i) grooming; (ii) encouraging or assisting suicide (or attempted suicide); (iii) hate; (iv) harassment, stalking, threats and abuse; (v) controlling or coercive behaviour; (b) users of the service have user profiles; and (c) the service has at least one of the following functionalities: (i) user connection functionality; (ii) posting content functionality; (iii) user communication (including but not limited to: (1) direct messaging functionality; and (2) commenting on content).'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU J1.1, p.57; index s3
+  status: verified
+  note: user_communication includes direct_messaging and commenting. Ofcom's June 2026 draft consolidated Code (not in force) adds serious self-harm and cyberflashing to the harm list; Ofcom also consulted (Apr 2025) on extending J1/J2 to smaller services.
+- id: ICU J2
+  code: ICU
+  section: J
+  title: Option to disable comments
+  applies_if:
+  - {size: large, risk_any: {harms: [csea_grooming, suicide_self_harm, hate, harassment], min: medium}, feature: commenting}
+  applies_text: 'This measure applies to a provider in respect of each large service it provides that meets both of the following conditions: (a) the service is at medium or high risk of one or more of the following kinds of illegal harm: (i) grooming; (ii) encouraging or assisting suicide (or attempted suicide); (iii) hate; (iv) harassment, stalking, threats and abuse; and (b) the service has commenting on content functionality.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU J2.1, p.59; index s3
+  status: verified
+  note: Draft consolidated Code (June 2026, not in force) adds cyberflashing and serious self-harm to the harm list.
+- id: ICU J3
+  code: ICU
+  section: J
+  title: Notable user and monetised labelling schemes
+  applies_if:
+  - {size: large, risk_any: {harms: [fraud, foreign_interference], min: medium}, feature_any: [notable_user_scheme, monetised_scheme]}
+  applies_text: 'This measure applies to a provider in respect of each large service it provides that meets both of the following conditions: (a) the service is at medium or high risk of fraud or the foreign interference offence (or both); and (b) the service labels user profiles under one or both of the following: (i) a notable user scheme; or (ii) a monetised scheme.'
+  in_force: 2025-03-17
+  source:
+    url: *src1
+    locator: s4 para ICU J3.1, p.60; index s3
+  status: verified
+- id: ICS A1
+  code: ICS
+  section: A
+  title: Annual review of risk management activities
+  applies_if:
+  - {size: large, search_kind: general}
+  applies_text: This measure applies to a provider in respect of each large general search service it provides.
+  in_force: 2025-03-17
+  source:
+    url: &src3 https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/detecting-intimate-image-abuse/illegal-content-codes-of-practice-for-search-services-9sep2026.pdf
+    locator: s4 para ICS A1.1, p.11; index s3
+  status: verified
+- id: ICS A2
+  code: ICS
+  section: A
+  title: Individual accountable for illegal content safety and complaints duties
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS A2.1, p.11; index s3
+  status: verified
+- id: ICS A3
+  code: ICS
+  section: A
+  title: Written statements of responsibilities
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS A3.1, p.12; index s3
+  status: verified
+- id: ICS A4
+  code: ICS
+  section: A
+  title: Internal monitoring and assurance
+  applies_if:
+  - {size: large, multi_risk: true}
+  applies_text: This measure applies to a provider in respect of each service it provides that is both a large service and a multi-risk service.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS A4.1, p.12; index s3
+  status: verified
+  note: Says 'large service' (not 'large general search service'), so a large vertical search service that is multi-risk is in scope.
+- id: ICS A5
+  code: ICS
+  section: A
+  title: Tracking evidence of new and increasing illegal harm
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS A5.1, p.13; index s3
+  status: verified
+- id: ICS A6
+  code: ICS
+  section: A
+  title: Code of conduct on protecting users from illegal harm
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS A6.1; index s3
+  status: verified
+  note: A first index extraction wrongly returned 'All services'; re-checked index cell and s4 both read 'Large general search services or multi-risk services'.
+- id: ICS A7
+  code: ICS
+  section: A
+  title: Compliance training
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS A7.1; index s3
+  status: verified
+  note: Re-checked as for ICS A6.
+- id: ICS C1
+  code: ICS
+  section: C
+  title: Search moderation function designed to action illegal content
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS C1.1, p.16; index s3
+  status: verified
+- id: ICS C2
+  code: ICS
+  section: C
+  title: Setting internal content policies
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS C2.1, p.17; index s3
+  status: verified
+- id: ICS C3
+  code: ICS
+  section: C
+  title: Search moderation performance targets
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS C3.1; index s3
+  status: verified
+  note: Re-checked as for ICS A6.
+- id: ICS C4
+  code: ICS
+  section: C
+  title: Prioritisation
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS C4.1; index s3
+  status: verified
+  note: Re-checked as for ICS A6.
+- id: ICS C5
+  code: ICS
+  section: C
+  title: Resourcing search moderation
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS C5.1; index s3
+  status: verified
+  note: Re-checked as for ICS A6.
+- id: ICS C6
+  code: ICS
+  section: C
+  title: Training and materials for (non-volunteer) search moderators
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS C6.1; index s3
+  status: verified
+  note: Re-checked as for ICS A6.
+- id: ICS C7
+  code: ICS
+  section: C
+  title: Removing listed CSAM URLs from search results
+  applies_if:
+  - {search_kind: general}
+  applies_text: This measure applies to a provider in respect of each general search service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS C7.1; index s3
+  status: verified
+- id: ICS C8
+  code: ICS
+  section: C
+  title: Hash matching to detect intimate image abuse content
+  applies_if:
+  - {size: large, search_kind: general}
+  applies_text: This measure applies to a provider in respect of each large general search service it provides.
+  in_force: 2026-09-30
+  source:
+    url: *src3
+    locator: s4 para ICS C8.1; index s3
+  status: verified
+  note: 'Added by amendments issued 9 Sep 2026, in force 30 Sep 2026 (Code cover and IIA statement page). IIA statement: providers should use a hash database ''equivalent to or better than'' StopNCII.org.'
+- id: ICS D1
+  code: ICS
+  section: D
+  title: Enabling complaints
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D1.1, p.26; index s3
+  status: verified
+- id: ICS D2
+  code: ICS
+  section: D
+  title: Easy to find, access and use complaints systems
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D2.1, p.26; index s3
+  status: verified
+- id: ICS D3
+  code: ICS
+  section: D
+  title: Sending complainants indicative timeframes
+  applies_if:
+  - {size: large, search_kind: general}
+  - {risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) at medium or high risk of any kind of illegal harm.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D3.1, p.27; index s3
+  status: verified
+- id: ICS D4
+  code: ICS
+  section: D
+  title: Further information on how complaint will be handled
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service that is likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) at medium or high risk of any kind of illegal harm.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D4.1, p.27; index s3
+  status: verified
+- id: ICS D5
+  code: ICS
+  section: D
+  title: Opt-out from communications following a complaint
+  applies_if:
+  - {size: large, search_kind: general}
+  - {risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) at medium or high risk of any kind of illegal harm.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D5.1, p.28; index s3
+  status: verified
+- id: ICS D6
+  code: ICS
+  section: D
+  title: Action on complaints about suspected illegal content
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D6.1, p.28; index s3
+  status: verified
+- id: ICS D7
+  code: ICS
+  section: D
+  title: Appeals determination (large general or multi-risk)
+  applies_if:
+  - {size: large, search_kind: general}
+  - {multi_risk: true}
+  applies_text: 'This measure applies to a provider in respect of each service it provides that is either (or both) of the following: a) a large general search service; or b) a multi-risk service.'
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D7.1, p.29; index s3
+  status: verified
+- id: ICS D8
+  code: ICS
+  section: D
+  title: Appeals determination (neither large general nor multi-risk)
+  applies_if:
+  - {size: not_large, multi_risk: false}
+  - {search_kind: vertical, multi_risk: false}
+  applies_text: This measure applies to a provider in respect of each service it provides that is neither a large general search service nor a multi-risk service.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D8.1, p.29; index s3
+  status: verified
+- id: ICS D9
+  code: ICS
+  section: D
+  title: Action following appeal determination
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D9.1, p.30; index s3
+  status: verified
+- id: ICS D10
+  code: ICS
+  section: D
+  title: Action on complaints about proactive technology (non-appeals)
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D10.1, p.31; index s3
+  status: verified
+- id: ICS D11
+  code: ICS
+  section: D
+  title: Action on all other relevant complaints
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service that it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D11.1, p.31; index s3
+  status: verified
+- id: ICS D12
+  code: ICS
+  section: D
+  title: Exception for manifestly unfounded complaints
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service that it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D12.1, p.32; index s3
+  status: verified
+- id: ICS D13
+  code: ICS
+  section: D
+  title: Dedicated trusted flagger reporting channel for fraud
+  applies_if:
+  - {size: large, search_kind: general, risk: {harm: fraud, min: medium}}
+  applies_text: This measure applies to a provider in respect of each service it provides that is a large general search service and is at medium or high risk of fraud.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS D13.1, p.33; index s3
+  status: verified
+- id: ICS F1
+  code: ICS
+  section: F
+  title: Reporting and removal of predictive search suggestions
+  applies_if:
+  - {size: large, search_kind: general, feature: predictive_search}
+  applies_text: This measure applies to a provider in respect of each large general search service it provides that uses a predictive search functionality.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS F1.1; index s3
+  status: verified
+  note: Section E of the ICS Code is '[Not used]'.
+- id: ICS F2
+  code: ICS
+  section: F
+  title: CSAM content warnings
+  applies_if:
+  - {size: large, search_kind: general}
+  applies_text: This measure applies to a provider in respect of each large general search service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS F2.1; index s3
+  status: verified
+- id: ICS F3
+  code: ICS
+  section: F
+  title: Suicide crisis prevention information
+  applies_if:
+  - {size: large, search_kind: general}
+  applies_text: This measure applies to a provider in respect of each large general search service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS F3.1; index s3
+  status: verified
+- id: ICS G1
+  code: ICS
+  section: G
+  title: 'Publicly available statements: substance (all services)'
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS G1.1, p.39; index s3
+  status: verified
+- id: ICS G2
+  code: ICS
+  section: G
+  title: 'Publicly available statements: substance (Category 2A)'
+  applies_if:
+  - {category: 2A}
+  applies_text: This measure applies to a provider in respect of each Category 2A service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS G2.1, p.39; index s3
+  status: verified
+- id: ICS G3
+  code: ICS
+  section: G
+  title: 'Publicly available statements: clarity and accessibility'
+  applies_if:
+  - {}
+  applies_text: This measure applies to a provider in respect of each service it provides.
+  in_force: 2025-03-17
+  source:
+    url: *src3
+    locator: s4 para ICS G3.1, p.40; index s3
+  status: verified
+- id: PCU A1
+  code: PCU
+  section: A
+  title: Annual review of risk management activities
+  applies_if:
+  - {children_likely: true, size: large}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is a large service.
+  in_force: 2025-07-25
+  source:
+    url: &src4 https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/statement-protecting-children-from-harms-online/main-document/protection-of-children-code-of-practice-for-user-to-user-services.pdf
+    locator: s4 para PCU A1.1, p.17; index s3
+  status: verified
+- id: PCU A2
+  code: PCU
+  section: A
+  title: Individual accountable for children's safety and complaints duties
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU A2.1, p.17; index s3
+  status: verified
+- id: PCU A3
+  code: PCU
+  section: A
+  title: Written statements of responsibilities
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU A3.1, p.18; index s3
+  status: verified
+- id: PCU A4
+  code: PCU
+  section: A
+  title: Internal monitoring and assurance
+  applies_if:
+  - {children_likely: true, size: large, multi_risk_children: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is both a large service and multi-risk (children).
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU A4.1, p.18; index s3
+  status: verified
+- id: PCU A5
+  code: PCU
+  section: A
+  title: Tracking evidence of new and increasing harm to children
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU A5.1, p.19; index s3
+  status: verified
+- id: PCU A6
+  code: PCU
+  section: A
+  title: Code of conduct on protecting children from harmful content
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU A6.1, p.20; index s3
+  status: verified
+- id: PCU A7
+  code: PCU
+  section: A
+  title: Compliance training
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU A7.1, p.20; index s3
+  status: verified
+- id: PCU B1
+  code: PCU
+  section: B
+  title: Implementing an age assurance process
+  applies_if:
+  - {children_likely: true, uses_heaa: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children that uses highly effective age assurance to identify which United Kingdom users of the service are child users for the purpose of targeting measures recommended in this Code at such users, their user accounts or their content feeds.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU B1.1, p.21; index s3
+  status: verified
+- id: PCU B2
+  code: PCU
+  section: B
+  title: HEAA where principal purpose is primary priority content
+  applies_if:
+  - {children_likely: true, ppc: principal_purpose}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides where the principal purpose of the service is the hosting or dissemination of one or more kinds of primary priority content.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU B2.1, p.22; index s3
+  status: verified
+- id: PCU B3
+  code: PCU
+  section: B
+  title: HEAA where principal purpose is priority content
+  applies_if:
+  - {children_likely: true, pc: principal_purpose}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides where the principal purpose of the service is the hosting or dissemination of one or more kinds of priority content.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU B3.1, p.23; index s3
+  status: verified
+- id: PCU B4
+  code: PCU
+  section: B
+  title: HEAA for services not prohibiting primary priority content
+  applies_if:
+  - {children_likely: true, ppc: permitted_not_principal}
+  - {children_likely: true, ppc: prohibited, takedown_infeasible: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides where: a) Recommendation PCU B2 does not apply to the service; and b) either: i) one or more specific kinds of primary priority content are allowed on the service; or ii) all kinds of primary priority content are prohibited on the service, but it is not currently technically feasible to take down all regulated user-generated content the provider determines is in breach of its terms of service pursuant to PCU C1.3(a).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU B4.1, p.24; index s3
+  status: verified
+  note: 'Unlike B5, B4 has no risk-level condition: allowing any kind of PPC is enough.'
+- id: PCU B5
+  code: PCU
+  section: B
+  title: HEAA for services not prohibiting priority content
+  applies_if:
+  - {children_likely: true, pc: permitted_not_principal, pc_risk_any: {harms: [abuse_hate, bullying, violence, dangerous_stunts, harmful_substances], min: medium, allowed: true}}
+  - {children_likely: true, pc: prohibited, takedown_infeasible: true, pc_risk_any: {harms: [abuse_hate, bullying, violence, dangerous_stunts, harmful_substances], min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides where: a) Recommendation PCU B3 does not apply to the service; and b) the service is at medium or high risk of one or more specific kinds of priority content and either: i) one or more of those kinds of content is allowed on the service; or ii) each of those kinds of content is prohibited on the service, but it is not currently technically feasible to take down all such content when the provider determines it to be in breach of its terms of service in accordance with PCU C1.4(a).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU B5.1, p.25; index s3
+  status: verified
+  note: 'The allowed kind must be one of the kinds at medium/high risk (''allowed: true'' qualifier).'
+- id: PCU B6
+  code: PCU
+  section: B
+  title: HEAA for recommender services risking primary priority content
+  applies_if:
+  - {children_likely: true, pc_risk_any: {harms: [pornography, suicide, self_harm, eating_disorders], min: medium, allowed: true}, feature: recommender}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that meets both of the following conditions: a) the service is at medium or high risk of one or more specific kinds of primary priority content which are allowed on the service; b) a child-accessible part of the service has a content recommender system.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU B6.1, p.26; index s3
+  status: verified
+- id: PCU B7
+  code: PCU
+  section: B
+  title: HEAA for recommender services risking priority or non-designated content
+  applies_if:
+  - {children_likely: true, pc_risk_any: {harms: [abuse_hate, violence, dangerous_stunts, harmful_substances, non_designated], min: medium, allowed: true}, feature: recommender}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that meets both of the following conditions: a) the service is at medium or high risk of: i) one or more specific kinds of priority content, other than bullying content, which are allowed on the service; or ii) one or more specific identified kinds of non-designated content which are allowed on the service; and b) a child-accessible part of the service has a content recommender system.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU B7.1, p.27; index s3
+  status: verified
+  note: Bullying content excluded.
+- id: PCU C1
+  code: PCU
+  section: C
+  title: Content moderation function for content harmful to children
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU C1.1, p.29; index s3
+  status: verified
+- id: PCU C2
+  code: PCU
+  section: C
+  title: Swift action against content harmful to children
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU C2.1, p.30; index s3
+  status: verified
+- id: PCU C3
+  code: PCU
+  section: C
+  title: Setting internal content policies
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU C3.1, p.34; index s3
+  status: verified
+- id: PCU C4
+  code: PCU
+  section: C
+  title: Content moderation performance targets
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU C4.1, p.34; index s3
+  status: verified
+- id: PCU C5
+  code: PCU
+  section: C
+  title: Prioritisation
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU C5.1, p.35; index s3
+  status: verified
+- id: PCU C6
+  code: PCU
+  section: C
+  title: Resourcing content moderation
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU C6.1, p.36; index s3
+  status: verified
+- id: PCU C7
+  code: PCU
+  section: C
+  title: Training and materials for (non-volunteer) content moderators
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU C7.1, p.36; index s3
+  status: verified
+- id: PCU C8
+  code: PCU
+  section: C
+  title: Provision of materials to volunteer moderators
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU C8.1, p.37; index s3
+  status: verified
+- id: PCU C11
+  code: PCU
+  section: C
+  title: Crisis response protocol (children)
+  applies_if:
+  - {children_likely: true, size: large, pc_risk_any: {harms: [abuse_hate, violence], min: medium}}
+  - {children_likely: true, pc_risk_any: {harms: [abuse_hate, violence], min: high}}
+  applies_text: 'PCU C11.1 This measure applies to a provider in respect of each service likely to be accessed by children it provides that meets either of the following conditions: a) the service is a large service at medium risk of one or more of the following kinds of content: i) abusive content; ii) content inciting hatred; iii) violent content (instructions for an act of serious violence against a person); iv) violent content (person); or b) the service is at high risk of one or more of the kinds of content listed in sub-paragraph (a).'
+  in_force: null
+  source:
+    url: &src5 https://assets.publishing.service.gov.uk/media/6a301481a3674dfd3eb508f9/Draft_amendments_to_the_Protection_of_Children_CoP_for_user-to-user_services_PR_A_.pdf
+    locator: Draft amendments to PCU Code (June 2026), para PCU C11.1
+  status: uncertain
+  note: Draft only (submitted to SoS 12 Jun 2026; gov.uk page 18 Jun 2026). Not in force as of 30 Sep 2026; no in-force date found. 'violence' here is limited to violent content (person) and instructions for serious violence against a person (not animal). PCU C9/C10 are not in the in-force Code and were not found in any document read; not recorded.
+- id: PCU C12
+  code: PCU
+  section: C
+  title: 'Crisis response: dedicated law enforcement channel (children)'
+  applies_if:
+  - {children_likely: true, size: large, pc_risk_any: {harms: [abuse_hate, violence], min: medium}}
+  applies_text: 'PCU C12.1 This measure applies to a provider in respect of each service likely to be accessed by children it provides that is a large service at medium or high risk of one or more of the following kinds of content: a) abusive content; b) content inciting hatred; c) violent content (instructions for an act of serious violence against a person); d) violent content (person).'
+  in_force: null
+  source:
+    url: *src5
+    locator: Draft amendments to PCU Code (June 2026), para PCU C12.1
+  status: uncertain
+  note: Draft only; see PCU C11.
+- id: PCU D1
+  code: PCU
+  section: D
+  title: Enabling complaints
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D1.1, p.38; index s3
+  status: verified
+- id: PCU D2
+  code: PCU
+  section: D
+  title: Easy to find, access and use complaints systems
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D2.1, p.38; index s3
+  status: verified
+- id: PCU D3
+  code: PCU
+  section: D
+  title: Information prior to submitting a complaint
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, pc_risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) at medium or high risk of any specific kind of content that is harmful to children.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D3.1, p.39; index s3
+  status: verified
+- id: PCU D4
+  code: PCU
+  section: D
+  title: Sending complainants indicative timeframes
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, pc_risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) at medium or high risk of any specific kind of content that is harmful to children.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D4.1, p.40; index s3
+  status: verified
+- id: PCU D5
+  code: PCU
+  section: D
+  title: Further information on how complaint will be handled
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, pc_risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) at medium or high risk of any specific kind of content that is harmful to children.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D5.1, p.40; index s3
+  status: verified
+- id: PCU D6
+  code: PCU
+  section: D
+  title: Opt-out from communications following a complaint
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, pc_risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) at medium or high risk of any specific kind of content that is harmful to children.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D6.1, p.41; index s3
+  status: verified
+- id: PCU D7
+  code: PCU
+  section: D
+  title: Action on complaints about content harmful to children
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D7.1, p.41; index s3
+  status: verified
+- id: PCU D8
+  code: PCU
+  section: D
+  title: Content appeals determination (large or multi-risk)
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D8.1, p.42; index s3
+  status: verified
+- id: PCU D9
+  code: PCU
+  section: D
+  title: Content appeals determination (neither large nor multi-risk)
+  applies_if:
+  - {children_likely: true, size: not_large, multi_risk_children: false}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is neither of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D9.1, p.42; index s3
+  status: verified
+- id: PCU D10
+  code: PCU
+  section: D
+  title: Action following content appeal determination
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D10.1, p.43; index s3
+  status: verified
+- id: PCU D11
+  code: PCU
+  section: D
+  title: Age assessment appeals (large or multi-risk)
+  applies_if:
+  - {children_likely: true, size: large}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D11.1, p.44; index s3
+  status: verified
+  note: Confirmed in both Ofcom's issued Code (s4) and the gov.uk laid version (index).
+- id: PCU D12
+  code: PCU
+  section: D
+  title: Age assessment appeals (neither large nor multi-risk)
+  applies_if:
+  - {children_likely: true, size: not_large, multi_risk_children: false}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is neither a large service nor multi-risk (children).
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D12.1, p.44; index s3
+  status: verified
+- id: PCU D13
+  code: PCU
+  section: D
+  title: Complaints about non-compliance with certain duties
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D13.1, p.45; index s3
+  status: verified
+- id: PCU D14
+  code: PCU
+  section: D
+  title: Exception for manifestly unfounded complaints
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU D14.1, p.46; index s3
+  status: verified
+- id: PCU E1
+  code: PCU
+  section: E
+  title: Recommender systems exclude potential primary priority content
+  applies_if:
+  - {children_likely: true, pc_risk_any: {harms: [pornography, suicide, self_harm, eating_disorders], min: medium}, feature: recommender}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that meets both of the following conditions: a) the service is at medium or high risk of one or more specific kinds of primary priority content; and b) a child-accessible part of the service has a content recommender system.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU E1.1, p.47; index s3
+  status: verified
+- id: PCU E2
+  code: PCU
+  section: E
+  title: Recommender systems exclude or downrank priority and non-designated content
+  applies_if:
+  - {children_likely: true, pc_risk_any: {harms: [abuse_hate, violence, dangerous_stunts, harmful_substances, non_designated], min: medium}, feature: recommender}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that meets both of the following conditions: a) the service is at medium or high risk of one or more specific kinds of priority content, other than bullying content, or identified kinds of non-designated content; and b) a child-accessible part of the service has a content recommender system.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU E2.1, p.48; index s3
+  status: verified
+- id: PCU E3
+  code: PCU
+  section: E
+  title: Recommender systems let children give negative feedback
+  applies_if:
+  - {children_likely: true, size: large, pc_risk_count: {exclude: [bullying], min: medium, count: 2}, feature: recommender}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that meets all of the following conditions: a) the service is a large service; b) the service is at medium or high risk of two or more specific kinds of content that is harmful to children, other than bullying content; and c) a child-accessible part of the service has a content recommender system.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU E3.1, p.50; index s3
+  status: verified
+  note: '''Specific kinds'' counted at Ofcom''s granularity (e.g. abusive content and content inciting hatred are separate kinds, as are the three violent content kinds); harm ids abuse_hate/violence group these.'
+- id: PCU F1
+  code: PCU
+  section: F
+  title: Age-appropriate user support materials for children
+  applies_if:
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is multi-risk (children).
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU F1.1, p.52; index s3
+  status: verified
+- id: PCU F2
+  code: PCU
+  section: F
+  title: Information to children when restricting content or interactions
+  applies_if:
+  - {children_likely: true, size: large, multi_risk_children: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is both a large service and multi-risk (children).
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU F2.1, p.53; index s3
+  status: verified
+- id: PCU F3
+  code: PCU
+  section: F
+  title: Signposting children to support when they report harmful content
+  applies_if:
+  - {children_likely: true, pc_risk_any: {harms: [bullying, eating_disorders, self_harm, suicide], min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is at medium or high risk of one or more of the following kinds of content: a) bullying content; b) eating disorder content; c) self-harm content; d) suicide content.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU F3.1, p.54; index s3
+  status: verified
+- id: PCU F4
+  code: PCU
+  section: F
+  title: Signposting children to support when they post harmful content
+  applies_if:
+  - {children_likely: true, size: large, pc_risk_any: {harms: [bullying, eating_disorders, self_harm, suicide], min: medium}, feature: posting_content}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that meets all of the following conditions: a) the service is a large service; b) the service is at medium or high risk of one or more of the following kinds of content: i) bullying content; ii) eating disorder content; iii) self-harm content; iv) suicide content; c) a child-accessible part of the service has posting content functionality.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU F4.1, p.55; index s3
+  status: verified
+- id: PCU F5
+  code: PCU
+  section: F
+  title: Signposting children to support when they search harmful content
+  applies_if:
+  - {children_likely: true, pc_risk_any: {harms: [eating_disorders, self_harm, suicide], min: medium}, feature: content_search}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that meets both of the following conditions: a) the service is at medium or high risk of eating disorder content, self-harm content or suicide content; and b) a child-accessible part of the service has a searching content functionality.'
+  in_force: 2025-07-25
+  source:
+    url: *src4
+    locator: s4 para PCU F5.1, p.56; index s3
+  status: verified
+  note: content_search = user-to-user 'searching content functionality' (not a search service).
+- id: PCU G1
+  code: PCU
+  section: G
+  title: 'Terms of service: substance (all services)'
+  applies_if:
+  - {children_likely: true}
+  applies_text: All services likely to be accessed by children.
+  in_force: 2025-07-25
+  source:
+    url: &src6 https://assets.publishing.service.gov.uk/media/680a04f7532adcaaab3a2718/FINAL_-_Protection_of_Children_Code_of_Practice_for_user-to-user_services__2025_Parli_AC.pdf
+    locator: index s3 (gov.uk laid version, p.14); s4 para not readable (truncated)
+  status: verified
+- id: PCU G2
+  code: PCU
+  section: G
+  title: 'Terms of service: substance (Category 1 services)'
+  applies_if:
+  - {children_likely: true, category: '1'}
+  applies_text: Category 1 services that are likely to be accessed by children.
+  in_force: 2025-07-25
+  source:
+    url: *src6
+    locator: index s3 (gov.uk laid version, p.14)
+  status: verified
+- id: PCU G3
+  code: PCU
+  section: G
+  title: 'Terms of service: clarity and accessibility'
+  applies_if:
+  - {children_likely: true}
+  applies_text: All services likely to be accessed by children.
+  in_force: 2025-07-25
+  source:
+    url: *src6
+    locator: index s3 (gov.uk laid version, p.15)
+  status: verified
+- id: PCU J1
+  code: PCU
+  section: J
+  title: User blocking and muting (children)
+  applies_if:
+  - {children_likely: true, feature: user_profiles, feature_any: [user_connection, posting_content, user_communication], pc_risk_any: {harms: [abuse_hate, bullying, eating_disorders, self_harm, suicide, violence], min: high}}
+  - {children_likely: true, feature: user_profiles, feature_any: [user_connection, posting_content, user_communication], users_over: 700000, pc_risk_any: {harms: [abuse_hate, bullying, eating_disorders, self_harm, suicide, violence], min: medium}}
+  applies_text: 'Services likely to be accessed by children that have user profiles and where a child-accessible part of the service has at least one specified functionality and that are either (a) at high risk of one or more of the specified kinds of content or (b) are at medium risk of one or more of the specified kinds of content and have more than 700,000 monthly active United Kingdom users. The specified kinds of content are: abusive content, bullying content, content inciting hatred, eating disorder content, self-harm content, suicide content, violent content (animal), violent content (instructions for an act of serious violence against a person), and violent content (person).'
+  in_force: 2025-07-25
+  source:
+    url: *src6
+    locator: index s3 (gov.uk laid version, p.15); functionalities from Codes at a glance
+  status: verified
+  note: 'applies_text is the index cell (s4 J1.1 not readable, truncated). Specified functionalities per Ofcom Codes at a glance (https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/statement-protecting-children-from-harms-online/main-document/codes-at-a-glance.pdf?v=395791): ''user connection, posting content and user communication''. Functionalities must be on a child-accessible part.'
+- id: PCU J2
+  code: PCU
+  section: J
+  title: Disabling comments (children)
+  applies_if:
+  - {children_likely: true, feature: commenting, pc_risk_any: {harms: [abuse_hate, bullying, eating_disorders, self_harm, suicide, violence], min: high}}
+  - {children_likely: true, feature: commenting, users_over: 700000, pc_risk_any: {harms: [abuse_hate, bullying, eating_disorders, self_harm, suicide, violence], min: medium}}
+  applies_text: 'Services likely to be accessed by children that have commenting on content functionality on a child-accessible part of the service and that are either (a) at high risk of one or more of the specified kinds of content or (b) are at medium risk of one or more of the specified kinds of content and have more than 700,000 monthly active United Kingdom users. The specified kinds of content are: abusive content, bullying content, content inciting hatred, eating disorder content, self-harm content, suicide content, violent content (animal), violent content (instructions for an act of serious violence against a person) and violent content (person).'
+  in_force: 2025-07-25
+  source:
+    url: *src6
+    locator: index s3 (gov.uk laid version, p.15)
+  status: verified
+  note: applies_text is the index cell; s4 J2.1 not readable (truncated).
+- id: PCU J3
+  code: PCU
+  section: J
+  title: Invitations to group chats
+  applies_if:
+  - {children_likely: true, feature: group_messaging, pc_risk_any: {harms: [abuse_hate, bullying, eating_disorders, self_harm, suicide, violence, pornography], min: medium}}
+  applies_text: Services likely to be accessed by children that (a) are at medium or high risk of one or more of the specified kinds of content and (b) where a child-accessible part of the service has group messaging functionality. The specified kinds of content are abusive content, bullying content, content inciting hatred, eating disorder content, regulated pornographic content, self-harm content, suicide content, violent content (animal), violent content (instructions for an act of serious violence against a person) and violent content (person).
+  in_force: 2025-07-25
+  source:
+    url: *src6
+    locator: index s3 (gov.uk laid version, p.16)
+  status: verified
+  note: applies_text is the index cell; s4 J3.1 not readable (truncated).
+- id: PCS A1
+  code: PCS
+  section: A
+  title: Annual review of risk management activities
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is a large general search service.
+  in_force: 2025-07-25
+  source:
+    url: &src7 https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/statement-protecting-children-from-harms-online/main-document/protection-of-children-code-of-practice-for-search-services2.pdf
+    locator: s4 para PCS A1.1, p.13; index s3
+  status: verified
+- id: PCS A2
+  code: PCS
+  section: A
+  title: Individual accountable for children's safety and complaints duties
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS A2.1, p.13; index s3
+  status: verified
+- id: PCS A3
+  code: PCS
+  section: A
+  title: Written statements of responsibilities
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS A3.1, p.14; index s3
+  status: verified
+- id: PCS A4
+  code: PCS
+  section: A
+  title: Internal monitoring and assurance
+  applies_if:
+  - {children_likely: true, size: large, multi_risk_children: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is both a large service and multi-risk (children).
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS A4.1, p.14; index s3
+  status: verified
+  note: Says 'large service', not 'large general search service'.
+- id: PCS A5
+  code: PCS
+  section: A
+  title: Tracking evidence of new and increasing harm to children
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS A5.1, p.15; index s3
+  status: verified
+- id: PCS A6
+  code: PCS
+  section: A
+  title: Code of conduct on protecting children from harmful content
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS A6.1, p.15; index s3
+  status: verified
+- id: PCS A7
+  code: PCS
+  section: A
+  title: Compliance training
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS A7.1, p.16; index s3
+  status: verified
+- id: PCS C1
+  code: PCS
+  section: C
+  title: Search moderation function for content harmful to children
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS C1.1, p.18; index s3
+  status: verified
+- id: PCS C2
+  code: PCS
+  section: C
+  title: Filtering out primary priority content for child users
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is a large general search service.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS C2.1; index s3
+  status: verified
+- id: PCS C3
+  code: PCS
+  section: C
+  title: Setting internal content policies
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS C3.1, p.22; index s3
+  status: verified
+- id: PCS C4
+  code: PCS
+  section: C
+  title: Search moderation performance targets
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS C4.1, p.23; index s3
+  status: verified
+- id: PCS C5
+  code: PCS
+  section: C
+  title: Prioritisation
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS C5.1, p.24; index s3
+  status: verified
+- id: PCS C6
+  code: PCS
+  section: C
+  title: Resourcing search moderation
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS C6.1, p.24; index s3
+  status: verified
+- id: PCS C7
+  code: PCS
+  section: C
+  title: Training and materials for (non-volunteer) search moderators
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS C7.1, p.25; index s3
+  status: verified
+- id: PCS D1
+  code: PCS
+  section: D
+  title: Enabling complaints
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D1.1, p.26; index s3
+  status: verified
+- id: PCS D2
+  code: PCS
+  section: D
+  title: Easy to find, access and use complaints systems
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D2.1, p.26; index s3
+  status: verified
+  note: PCS D3 is '[Not used]' in the Code.
+- id: PCS D4
+  code: PCS
+  section: D
+  title: Sending complainants indicative timeframes
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, pc_risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) at medium or high risk of any specific kind of content that is harmful to children.'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D4.1, p.27; index s3
+  status: verified
+- id: PCS D5
+  code: PCS
+  section: D
+  title: Further information on how complaint will be handled
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, pc_risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) at medium or high risk of any specific kind of content that is harmful to children.'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D5.1, p.28; index s3
+  status: verified
+- id: PCS D6
+  code: PCS
+  section: D
+  title: Opt-out from communications following a complaint
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, pc_risk_any: {min: medium}}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) at medium or high risk of any specific kind of content that is harmful to children.'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D6.1, p.28; index s3
+  status: verified
+- id: PCS D7
+  code: PCS
+  section: D
+  title: Action on complaints about content harmful to children
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D7.1, p.28; index s3
+  status: verified
+- id: PCS D8
+  code: PCS
+  section: D
+  title: Content appeals determination (large general or multi-risk)
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: a) a large general search service; or b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D8.1, p.29; index s3
+  status: verified
+- id: PCS D9
+  code: PCS
+  section: D
+  title: Content appeals determination (neither large general nor multi-risk)
+  applies_if:
+  - {children_likely: true, size: not_large, multi_risk_children: false}
+  - {children_likely: true, search_kind: vertical, multi_risk_children: false}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is neither a large general search service nor multi-risk (children).
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D9.1, p.30; index s3
+  status: verified
+- id: PCS D10
+  code: PCS
+  section: D
+  title: Action following content appeal determination
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D10.1, p.30; index s3
+  status: verified
+- id: PCS D11
+  code: PCS
+  section: D
+  title: Age assessment appeals (large general or multi-risk)
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: 'This measure applies to a provider in respect of each service likely to be accessed by children it provides that is either (or both) of the following: (a) a large general search service; or (b) multi-risk (children).'
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D11.1; index s3
+  status: verified
+- id: PCS D12
+  code: PCS
+  section: D
+  title: Age assessment appeals (neither large general nor multi-risk)
+  applies_if:
+  - {children_likely: true, size: not_large, multi_risk_children: false}
+  - {children_likely: true, search_kind: vertical, multi_risk_children: false}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is neither a large general search service nor multi-risk (children).
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D12.1, p.32; index s3
+  status: verified
+- id: PCS D13
+  code: PCS
+  section: D
+  title: Complaints about non-compliance with certain duties
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D13.1, p.32; index s3
+  status: verified
+- id: PCS D14
+  code: PCS
+  section: D
+  title: Exception for manifestly unfounded complaints
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS D14.1, p.33; index s3
+  status: verified
+- id: PCS F1
+  code: PCS
+  section: F
+  title: Reporting and removal of predictive search suggestions
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general, feature: predictive_search}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is a large general search service and where a child-accessible part of the service uses a predictive search functionality.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS F1.1; index s3
+  status: verified
+  note: Section E and measure PCS F2 are '[Not used]' in the Code.
+- id: PCS F3
+  code: PCS
+  section: F
+  title: Suicide, self-harm and eating disorder crisis prevention information
+  applies_if:
+  - {children_likely: true, size: large, search_kind: general}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is a large general search service.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS F3.1; index s3
+  status: verified
+- id: PCS F4
+  code: PCS
+  section: F
+  title: Age-appropriate user support materials for children
+  applies_if:
+  - {children_likely: true, multi_risk_children: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides that is multi-risk (children).
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS F4.1; index s3
+  status: verified
+- id: PCS G1
+  code: PCS
+  section: G
+  title: 'Publicly available statements: substance (all services)'
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS G1.1, p.39; index s3
+  status: verified
+- id: PCS G2
+  code: PCS
+  section: G
+  title: 'Publicly available statements: substance (Category 2A)'
+  applies_if:
+  - {children_likely: true, category: 2A}
+  applies_text: This measure applies to a provider in respect of each Category 2A service that is likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS G2.1, p.39; index s3
+  status: verified
+- id: PCS G3
+  code: PCS
+  section: G
+  title: 'Publicly available statements: clarity and accessibility'
+  applies_if:
+  - {children_likely: true}
+  applies_text: This measure applies to a provider in respect of each service likely to be accessed by children it provides.
+  in_force: 2025-07-25
+  source:
+    url: *src7
+    locator: s4 para PCS G3.1, p.39; index s3
+  status: verified
