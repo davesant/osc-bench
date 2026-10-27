@@ -49,7 +49,7 @@ including the Croissant Responsible AI fields, is in `croissant.json`.
 ## Distribution
 
 - Public release on GitHub with the gold answers, checks, rubrics and oracle solutions held out (docs/public-release.md).
-  No licence has been granted yet; the licence and any paper are open decisions.
+  The code is MIT licensed (LICENSE). No licence has yet been granted for the data or docs; that and any paper are open decisions.
 
 ## Maintenance
 

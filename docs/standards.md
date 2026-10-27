@@ -22,7 +22,7 @@ facto expectations below, and uses W3C PROV-O terms for provenance in `croissant
 | Blind expert gold review with agreement statistics | ABC T.7; BetterBench | Missing | `docs/gold-review.md` sets the process |
 | LLM judge validated against humans | ABC O.c.1 | Missing | maintainer's task list |
 | Model and human baselines with confidence intervals | ABC R.10, R.12 | Missing | maintainer's task list |
-| Licence and public access | ABC R.1; NeurIPS; Inspect Evals register | Missing (decision pending) | maintainer's task list |
+| Licence and public access | ABC R.1; NeurIPS; Inspect Evals register | Partial: code MIT; data licence pending | maintainer's task list |
 | Paper and two-model run logs | Inspect Evals register | Missing | maintainer's task list |
 
 Sources: [W3C Agent Conformance and Benchmarking CG](https://www.w3.org/community/agent-conformance/),

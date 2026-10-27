@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "osc-bench"
 version = "0.2.1"
+license = {text = "MIT"}
 description = "A benchmark for AI agents doing UK Online Safety Act compliance work"
 readme = "README.md"
 requires-python = ">=3.10"
